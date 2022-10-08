@@ -5,28 +5,55 @@ body {
 
 .one {
     background-color: #1F2937;
-    padding: 15px 100px 80px;
+    padding: 15px 150px 100px;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 40px;
+    margin-bottom: 110px;
 }
 
 .hero {
     display: flex;
-    border: 1px solid yellow;
+}
+
+.left, .right {
+    width: 500px;
+    flex: 1 1 auto;
+}
+
+.left{
+    padding: 5px 40px 5px 0;
+}
+
+.right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
 }
 
 h1 {
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
+    margin: 0 0 10px 0;
 }
 
-p, a, footer {
+p{
+    margin: 0 0 10px 0;
+}
+
+button {
+    background-color: #3882F6;
+    padding: 5px 30px;
+    border-radius: 8px;
+    border: none;
+}
+
+p, a, .right, button, footer {
     color: #E5E7EB;
     font-size: 18px;
 }
