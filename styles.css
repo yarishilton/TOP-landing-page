@@ -1,5 +1,4 @@
 body {
-    border: 1px solid red;
     margin: 0;
     font-family: Roboto, sans-serif;
 }
@@ -14,11 +13,22 @@ body {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 40px;
-    border: 1px solid green;
 }
 
 .hero {
+    display: flex;
     border: 1px solid yellow;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+p, a, footer {
+    color: #E5E7EB;
+    font-size: 18px;
 }
 
 .logo {
@@ -29,8 +39,6 @@ body {
 
 a {
     text-decoration: none;
-    color: #E5E7EB;
-    font-size: 18px;
 }
 
 ul {
