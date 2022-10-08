@@ -1,0 +1,42 @@
+body {
+    border: 1px solid red;
+    margin: 0;
+    font-family: Roboto, sans-serif;
+}
+
+.one {
+    background-color: #1F2937;
+    padding: 15px 100px 80px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+    border: 1px solid green;
+}
+
+.hero {
+    border: 1px solid yellow;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+}
