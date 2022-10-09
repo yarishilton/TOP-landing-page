@@ -42,7 +42,7 @@ h1 {
     margin: 0 0 10px 0;
 }
 
-p{
+.subtext{
     margin: 0 0 10px 0;
 }
 
@@ -53,7 +53,7 @@ button {
     border: none;
 }
 
-p, a, .right, button, footer {
+.subtext, a, .right, button, footer {
     color: #E5E7EB;
     font-size: 18px;
 }
