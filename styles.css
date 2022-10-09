@@ -1,6 +1,7 @@
 body {
     margin: 0;
     font-family: Roboto, sans-serif;
+    box-sizing: border-box;
 }
 
 .one {
@@ -13,6 +14,24 @@ body {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 110px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
 }
 
 .hero {
@@ -37,7 +56,7 @@ body {
 
 h1 {
     font-size: 48px;
-    font-weight: 900;
+    font-weight: 800;
     color: #F9FAF8;
     margin: 0 0 10px 0;
 }
@@ -58,20 +77,38 @@ button {
     font-size: 18px;
 }
 
-.logo {
-    font-size: 24px;
-    color: #F9FAF8;
-    font-weight: bold;
-}
-
-a {
-    text-decoration: none;
-}
-
-ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
+.two {
     display: flex;
-    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    margin: 60px 0;
+}
+
+.photos {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 100px;
+}
+
+.item {
+    width: 200px;
+    text-align: center;
+}
+
+.img {
+    border: 5px solid #3882F6;
+    border-radius: 12px;
+    height: 190px;
+}
+
+.descr {
+    margin: 10px 0 0 0;
+    color: rgb(51, 51, 51);
 }
