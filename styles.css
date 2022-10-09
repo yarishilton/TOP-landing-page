@@ -67,9 +67,11 @@ h1 {
 
 button {
     background-color: #3882F6;
-    padding: 5px 30px;
+    padding: 10px 30px;
     border-radius: 8px;
     border: none;
+    font-weight: bold;
+    color: #E5E7EB;
 }
 
 .subtext, a, .right, button, footer {
@@ -137,4 +139,34 @@ blockquote {
     text-align: right;
     margin: 10px 0 0 0;
     width: 950px;
+}
+
+.four {
+    padding: 100px 150px;
+}
+
+.container {
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h3 {
+    color:#F9FAF8;
+    font-weight: 800;
+    font-size: 24px;
+    margin: 0;
+}
+
+.action p {
+    color:#E5E7EB;
+    font-size: 20px;
+    margin: 0;
+}
+
+.container button {
+    border: 3px solid white;
 }
